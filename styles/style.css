@@ -88,7 +88,7 @@ nav ul li a:hover::after{
 }
 
 .row{
-  margin:100px;
+  margin:70px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
