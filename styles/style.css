@@ -147,6 +147,48 @@ nav ul li a:hover::after{
 }
 
 
+/*--------------gallery------------------*/
+
+#gallery{
+  padding: 70px;
+  background: darkslategrey;
+}
+
+.containers{
+  padding-left: 48px;
+  display: flex;
+  max-width: 1200px;
+  width:100%;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-content: center;
+  justify-content: space-between;
+  
+}
+
+.galhead h1{
+  color: hsl(0, 12%, 95%);
+  text-align: center;
+}
+
+
+.containers img{
+ 
+  width:200px ;
+  height:200px;
+  object-fit: cover;
+  object-position: bottom;
+  
+}
+
+.containers img:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+
+
 
 
 /*-----------------contact---------------*/
@@ -327,6 +369,29 @@ form input, form textarea{
   color:green;
   font-size: 12px;
 }
+  
+  
+  
+  /*--------------gallery----------------*/
+
+.galhead h1{
+  font-size: 30px;
+  color: hsl(0, 12%, 95%);
+  text-align: center;
+}
+
+
+.containers img{
+ 
+  width:100px ;
+  height:100px;
+  object-fit: cover;
+  object-position: bottom;
+  
+}
+  
+  
+  
 
 
 /*------------contact--------------*/
